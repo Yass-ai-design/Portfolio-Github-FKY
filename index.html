@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Yasser | Développeur Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="glass-nav">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span>Yasser.dev</span>
+                </div>
+                <ul id="nav-menu">
+                    <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                    <li><a href="#bts-sio" class="nav-link">BTS SIO</a></li>
+                    <li><a href="#profil" class="nav-link">Profil</a></li>
+                    <li><a href="#competences" class="nav-link">Compétences</a></li>
+                    <li><a href="#projets" class="nav-link">Projets</a></li>
+                    <li><a href="#veille-techno" class="nav-link">Veille Technologique</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Yasser <span>Développeur Web</span></h1>
+            <p class="hero-subtitle">Création de solutions web innovantes et performantes</p>
+            <div class="hero-buttons">
+                <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                <a href="#contact" class="btn btn-secondary">Me contacter</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="img/dev-illustration.png" alt="Illustration développement web" loading="lazy">
+        </div>
+    </section>
+
+    <!-- BTS SIO Section -->
+    <section id="bts-sio" class="section">
+        <div class="container">
+            <h2 class="section-title">BTS <span>SIO</span></h2>
+            <div class="grid-2-col">
+                <div class="bts-card">
+                    <div class="bts-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Option SLAM</h3>
+                    <p>Solutions Logicielles et Applications Métiers : Développement d'applications, programmation, bases de données.</p>
+                </div>
+                <div class="bts-card">
+                    <div class="bts-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Option SISR</h3>
+                    <p>Solutions d'Infrastructure, Systèmes et Réseaux : Administration systèmes et réseaux, cybersécurité.</p>
+                </div>
+            </div>
+            <div class="bts-info">
+                <p>Le BTS SIO forme des professionnels capables de répondre aux besoins informatiques des entreprises avec deux spécialisations distinctes.</p>
+                <a href="https://diplomeo.com/trouver-bts-sio" class="btn btn-outline">En savoir plus</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profil Section -->
+    <section id="profil" class="section bg-light">
+        <div class="container">
+            <div class="profil-wrapper">
+                <div class="profil-image">
+                    <img src="img/yasser.jpg" alt="Photo de Yasser" loading="lazy">
+                </div>
+                <div class="profil-content">
+                    <h2 class="section-title">Mon <span>Profil</span></h2>
+                    <p class="profil-text">Étudiant en BTS SIO option SLAM, je me spécialise dans le développement web full-stack avec une passion pour les technologies modernes.</p>
+                    
+                    <div class="profil-details">
+                        <div class="detail-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <h4>Nom :</h4>
+                                <p>Yasser</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <div>
+                                <h4>Âge :</h4>
+                                <p>20 ans</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localisation :</h4>
+                                <p>Paris, France</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="profil-actions">
+                        <a href="docs/CV-OFFICIEL-FEKHAR.pdf" download class="btn btn-primary">
+                            <i class="fas fa-download"></i> Télécharger mon CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Compétences Section -->
+        <section id="competences" class="section">
+            <div class="container">
+                <h2 class="section-title">Mes <span>Compétences</span></h2>
+                
+                <div class="skills-container">
+                    <!-- Front-end -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Front-end</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>HTML5</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>CSS3</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js-square"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>JavaScript</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="skill-item">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-python"></i>
+                                    </div>
+                                    <div class="skill-info">
+                                        <h4>Python</h4>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" style="width: 25%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Back-end -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-server"></i> Back-end</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-php"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>PHP</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>MySQL</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-cube"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>C#</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 65%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Projets Section -->
+    <section id="projets" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Mes <span>Projets</span></h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/BUGATTI.jpg" alt="Projet Autolocpro" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Autolocpro</h3>
+                        <p>Plateforme de location de véhicules professionnels avec système de réservation en ligne.</p>
+                        <div class="project-tech">
+                            <span>HTML/CSS</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">Voir le projet</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/ads4.jpg" alt="Projet ADS Laminaire" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>ADS Laminaire</h3>
+                        <p>Site vitrine pour une entreprise spécialisée dans les systèmes de filtration d'air.</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">Voir le projet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Veille Technologique Section -->
+        <section id="veille-techno" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Veille <span>Technologique</span></h2>
+                
+                <div class="veille-content">
+                    <div class="veille-text">
+                        <h3>Domotique et Intelligence Artificielle</h3>
+                        <p>J'effectue une veille technologique sur l'évolution des systèmes domotiques et leur intégration avec l'IA. Découvrez mon analyse des dernières tendances et innovations.</p>
+                        
+                        <a href="docs/Veille_Technologique_Domotique_Couleurs.pptx" class="btn btn-primary">
+                            <i class="fas fa-file-powerpoint"></i> Consulter ma veille technologique
+                        </a>
+                    </div>
+                    
+                    <div class="veille-visual">
+                        <img src="img/dom.jpg" alt="Domotique et IA" loading="lazy">
+                        <div class="veille-tags">
+                            <span>Smart Home</span>
+                            <span>IA</span>
+                            <span>IoT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <!-- Contact Section Simplifiée -->
+       <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Me <span>Contacter</span></h2>
+            
+            <div class="contact-simple">
+                <div class="contact-card">
+                    <i class="fas fa-envelope-open-text contact-icon"></i>
+                    <h3>Envoyez-moi un email</h3>
+                    <p>Disponible pour répondre à vos questions ou propositions</p>
+                    
+                    <a href="mailto:yaya.fekh@gmail.com?subject=Contact%20depuis%20portfolio&body=Bonjour%20Yasser,%0D%0A%0D%0AJe%20vous%20contacte%20concernant..." 
+                       class="btn btn-primary btn-contact">
+                       <i class="fas fa-paper-plane"></i> Cliquez ici pour m'écrire
+                    </a>
+                </div>
+                
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+33 6 66 25 42 76</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>Yasser.dev</span>
+                    <p>Développeur Web Full-Stack</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#accueil">Accueil</a>
+                    <a href="#profil">À propos</a>
+                    <a href="#competences">Compétences</a>
+                    <a href="#projets">Projets</a>
+                    <a href="#veille-techno">Veille Technologique</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Yasser. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
