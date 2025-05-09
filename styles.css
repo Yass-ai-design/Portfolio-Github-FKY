@@ -202,8 +202,9 @@ nav {
 }
 
 .hero-content {
-   padding-left: 2rem; /* ou 30px, selon ton besoin */
-    padding-right: 2rem;
+   max-width: 1200px;
+    margin: 0 auto;
+    padding: 10rem;
 }
 
 .hero-title {
