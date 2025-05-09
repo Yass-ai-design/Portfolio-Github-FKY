@@ -714,3 +714,56 @@ nav {
         margin-bottom: var(--spacing-lg);
     }
 }
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.hero-content {
+    flex: 1;
+    min-width: 280px;
+    order: 1;
+}
+
+.hero-image {
+    flex: 1;
+    min-width: 280px;
+    text-align: center;
+    order: 2;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 8rem;
+    }
+
+    .hero-content {
+        order: 1;
+    }
+
+    .hero-image {
+        order: 2;
+        margin-top: 2rem;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
