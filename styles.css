@@ -202,8 +202,8 @@ nav {
 }
 
 .hero-content {
-    flex: 1;
-    z-index: 1;
+   padding-left: 2rem; /* ou 30px, selon ton besoin */
+    padding-right: 2rem;
 }
 
 .hero-title {
@@ -252,6 +252,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: var(--spacing-lg);
+    margin-bottom: 2rem; 
 }
 
 /* BTS Section */
@@ -273,6 +274,12 @@ nav {
     color: var(--primary-color);
     margin-bottom: var(--spacing-sm);
 }
+
+.bts-info a {
+    display: inline-block;
+    margin-top: 1.5rem; /* ajuste selon l'espacement souhaité */
+}
+
 
 /* Profil Section */
 .profil-wrapper {
